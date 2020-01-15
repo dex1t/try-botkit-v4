@@ -1,0 +1,11 @@
+{
+  "name": "whisperbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dex1t/whisperbot.git",
+  "author": "dex1t <dex1t@deg.ooo>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
