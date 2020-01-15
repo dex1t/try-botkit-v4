@@ -12,5 +12,9 @@
   "devDependencies": {
     "prettier": "^1.19.1",
     "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "botbuilder-adapter-slack": "^1.0.7",
+    "botkit": "^4.6.1"
   }
 }
