@@ -5,7 +5,12 @@
   "repository": "git@github.com:dex1t/whisperbot.git",
   "author": "dex1t <dex1t@deg.ooo>",
   "license": "MIT",
+  "scripts": {
+    "build": "npx tsc --outDir ./dist ./src/index.ts",
+    "start": "yarn build && node dist/index.js"
+  },
   "devDependencies": {
+    "prettier": "^1.19.1",
     "typescript": "^3.7.4"
   }
 }
