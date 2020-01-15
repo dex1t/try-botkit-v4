@@ -6,7 +6,7 @@
   "author": "dex1t <dex1t@deg.ooo>",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc --outDir ./dist ./src/index.ts",
+    "build": "npx tsc",
     "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
